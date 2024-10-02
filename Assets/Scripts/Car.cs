@@ -95,7 +95,7 @@ public class Car : MonoBehaviour
         {
             moveForward = false;
         }
-       /* 
+     
         moveReverse = (Input.GetKeyDown(keyMoveReverse)) ? true : moveReverse;
         moveReverse = (Input.GetKeyUp(keyMoveReverse)) ? false : moveReverse;
         if (moveReverse)
@@ -103,7 +103,6 @@ public class Car : MonoBehaviour
             moveSpeedReverse = (moveSpeedReverse < moveSpeedMax) ? moveSpeedReverse + moveAcceleration : moveSpeedMax; } else { moveSpeedReverse = (moveSpeedReverse > 0) ? moveSpeedReverse - moveDeceleration : 0;
         }
         transform.Translate(0f, moveSpeedReverse * Time.deltaTime * -1f, 0f);
-*/
     }
 /*
     void Update()

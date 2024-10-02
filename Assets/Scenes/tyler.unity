@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 210771232}
   - component: {fileID: 210771235}
   - component: {fileID: 210771234}
+  - component: {fileID: 210771236}
   m_Layer: 0
   m_Name: Pedestrian
   m_TagString: Player
@@ -362,6 +363,22 @@ MonoBehaviour:
   BC: {fileID: 210771234}
   Roadkill: {fileID: 8024672383087986811, guid: dc4c913374883324aa94cf0a691510bb, type: 3}
   SR: {fileID: 210771232}
+--- !u!114 &210771236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210771231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c257dcbd3877d1408fbc2a1d23d66c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  E: {fileID: 0}
+  BC: {fileID: 0}
+  Roadkill: {fileID: 0}
+  SR: {fileID: 0}
 --- !u!1 &1012085132
 GameObject:
   m_ObjectHideFlags: 0
