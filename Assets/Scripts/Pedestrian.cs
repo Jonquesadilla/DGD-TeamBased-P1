@@ -26,9 +26,7 @@ public class Pedestrian : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("hit");
-            E.score =+ 1;
-            Instantiate(Roadkill);
-            
+
         }
     }
 

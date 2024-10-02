@@ -20,6 +20,7 @@ public class Car : MonoBehaviour
     public string keyMoveReverse;
     public string keyRotateRight;
     public string keyRotateLeft;
+    public GameObject Roadkill;
 
     bool moveForward = false;
     bool Brake = false;
@@ -51,10 +52,12 @@ public class Car : MonoBehaviour
     public GameObject DeadGuy;
 
     public AudioSource Engine;
-    public AudioClip vroom;
+    //public AudioClip vroom;
 
     public AudioSource hit;
-    public AudioSource bonk;
+    public AudioClip Hit;
+    public AudioSource scream;
+    public AudioClip Scream;
     //timers
 
     void Start()
@@ -150,9 +153,12 @@ public class Car : MonoBehaviour
 */
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Pedestrian")
         {
+            scream.PlayOneShot(Scream);
+            Instantiate(Roadkill, transform.position+new Vector3(0,0), quaternion.identity);
             Debug.Log("hit");
+            score += 1;
         }
     }
 }

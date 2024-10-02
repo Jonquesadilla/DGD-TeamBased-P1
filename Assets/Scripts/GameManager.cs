@@ -32,11 +32,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         score = 0;
-        //Health = 100;
         Timer = 0;
-       // SpawnTimer = SpawnMaxTime;
-       // gunspawner.x = Random.Range()
-       
+
     }
 
     // Update is called once per frame
