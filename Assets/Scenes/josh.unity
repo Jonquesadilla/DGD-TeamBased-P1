@@ -471,6 +471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small Long House (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8331017779994407613, guid: be0d47b49b4616b45a737d462aaef09c, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -544,6 +548,10 @@ PrefabInstance:
     - target: {fileID: 8014230327174796235, guid: 055542f5442d62e4eb6835e6d2320cbe, type: 3}
       propertyPath: m_Name
       value: Small House Orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8014230327174796235, guid: 055542f5442d62e4eb6835e6d2320cbe, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1548,6 +1556,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!4 &344253511 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+  m_PrefabInstance: {fileID: 7837373833099557124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &395492111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1599,6 +1612,10 @@ PrefabInstance:
     - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
       propertyPath: m_Name
       value: Small House Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1673,6 +1690,10 @@ PrefabInstance:
     - target: {fileID: 8014230327174796235, guid: 055542f5442d62e4eb6835e6d2320cbe, type: 3}
       propertyPath: m_Name
       value: Small House Orange (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8014230327174796235, guid: 055542f5442d62e4eb6835e6d2320cbe, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1811,7 +1832,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3d2dda4bf1e40b9488eee4aa5963051c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8358,6 +8379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small House Purple (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7060143390711341975, guid: 537bb81e1487f1942841e350c2f67fc6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     - target: {fileID: 7640935905975861771, guid: 537bb81e1487f1942841e350c2f67fc6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.92
@@ -8459,6 +8484,10 @@ PrefabInstance:
     - target: {fileID: 8221935084837941806, guid: b5a6d61d5a67fcb4791eb120c413c00c, type: 3}
       propertyPath: m_Name
       value: Small House Yellow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221935084837941806, guid: b5a6d61d5a67fcb4791eb120c413c00c, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8595,6 +8624,10 @@ PrefabInstance:
     - target: {fileID: 8369481187224513098, guid: 6de26c6b50693924dbd7a7cd3ae66576, type: 3}
       propertyPath: m_Name
       value: Building 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369481187224513098, guid: 6de26c6b50693924dbd7a7cd3ae66576, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10112,6 +10145,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8453681525571429410, guid: 45b9cb63efe620548bf7205ea4d0ef1f, type: 3}
   m_PrefabInstance: {fileID: 741605623}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &774051637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1997527989}
+    m_Modifications:
+    - target: {fileID: 1923749038058100188, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_Name
+      value: Parked Green Car (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.40587997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.309143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5516489
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+--- !u!4 &774051638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+  m_PrefabInstance: {fileID: 774051637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &776356594
 GameObject:
   m_ObjectHideFlags: 0
@@ -10202,6 +10297,10 @@ PrefabInstance:
     - target: {fileID: 8331017779994407613, guid: be0d47b49b4616b45a737d462aaef09c, type: 3}
       propertyPath: m_Name
       value: Small Long House (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8331017779994407613, guid: be0d47b49b4616b45a737d462aaef09c, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10457,6 +10556,10 @@ PrefabInstance:
     - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
       propertyPath: m_Name
       value: Small House Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12265,6 +12368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small House Blue (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12439,6 +12546,10 @@ PrefabInstance:
     - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_Name
       value: House
+      objectReference: {fileID: 0}
+    - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 7612248218542590537, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13252,6 +13363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small House Yellow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8221935084837941806, guid: b5a6d61d5a67fcb4791eb120c413c00c, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13399,6 +13514,10 @@ PrefabInstance:
     - target: {fileID: 8369481187224513098, guid: 6de26c6b50693924dbd7a7cd3ae66576, type: 3}
       propertyPath: m_Name
       value: Building 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369481187224513098, guid: 6de26c6b50693924dbd7a7cd3ae66576, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14599,6 +14718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small House Orange (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8014230327174796235, guid: 055542f5442d62e4eb6835e6d2320cbe, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14733,6 +14856,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2805202141591976149, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
   m_PrefabInstance: {fileID: 1920828960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1997527988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997527989}
+  m_Layer: 0
+  m_Name: Cars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1997527989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997527988}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.45412, y: -1.1308571, z: 0.5516489}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 344253511}
+  - {fileID: 774051638}
+  - {fileID: 2215637346156456528}
+  - {fileID: 5000449646121610903}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2009898560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14744,6 +14902,10 @@ PrefabInstance:
     - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_Name
       value: House (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 7612248218542590537, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14806,6 +14968,10 @@ PrefabInstance:
     - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_Name
       value: House (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 7612248218542590537, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14976,6 +15142,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 801376133a18bab46903921a2c33b4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AS: {fileID: 0}
+  AC: {fileID: 0}
+  timer: 10
+  min: 20
+  max: 30
 --- !u!82 &2078304654
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15282,6 +15453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     - target: {fileID: 7612248218542590537, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.45
@@ -15388,6 +15563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small House Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 8014230327174796235, guid: 055542f5442d62e4eb6835e6d2320cbe, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15449,6 +15628,10 @@ PrefabInstance:
     - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
       propertyPath: m_Name
       value: Small House Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793668417777670505, guid: 9ca3b6fd424ca9749bb4cba2c73ddee8, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15591,6 +15774,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2805202141591976149, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
   m_PrefabInstance: {fileID: 2093394460398722401}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2215637346156456527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1997527989}
+    m_Modifications:
+    - target: {fileID: 2004847460464848916, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_Name
+      value: Parked Purple Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5516489
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065168637517946236, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+--- !u!4 &2215637346156456528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131717825463230551, guid: ec104a5355848f34ab08a8f6e7037ce2, type: 3}
+  m_PrefabInstance: {fileID: 2215637346156456527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2844416693004461352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15642,6 +15891,10 @@ PrefabInstance:
     - target: {fileID: 8369481187224513098, guid: 6de26c6b50693924dbd7a7cd3ae66576, type: 3}
       propertyPath: m_Name
       value: Building 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8369481187224513098, guid: 6de26c6b50693924dbd7a7cd3ae66576, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15705,11 +15958,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small Long House
       objectReference: {fileID: 0}
+    - target: {fileID: 8331017779994407613, guid: be0d47b49b4616b45a737d462aaef09c, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be0d47b49b4616b45a737d462aaef09c, type: 3}
+--- !u!1001 &5000449646121610902
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1997527989}
+    m_Modifications:
+    - target: {fileID: 2114487236603353396, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349193747697355030, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_Name
+      value: Parked Silver Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5516489
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+--- !u!4 &5000449646121610903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3804265029405541426, guid: 097488b8f0a714b4f96b02009338d167, type: 3}
+  m_PrefabInstance: {fileID: 5000449646121610902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5584689679609513354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15762,6 +16085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small House Yellow
       objectReference: {fileID: 0}
+    - target: {fileID: 8221935084837941806, guid: b5a6d61d5a67fcb4791eb120c413c00c, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15778,6 +16105,10 @@ PrefabInstance:
     - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_Name
       value: House
+      objectReference: {fileID: 0}
+    - target: {fileID: 321351870206335581, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 7612248218542590537, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15824,6 +16155,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c2764f3e968ce040ab486036fd75ee6, type: 3}
+--- !u!1001 &7837373833099557124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1997527989}
+    m_Modifications:
+    - target: {fileID: 1923749038058100188, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_Name
+      value: Parked Green Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.29914284
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5516489
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588419241008144493, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7d351eed6f77f4680318d2bbcae124, type: 3}
 --- !u!1001 &8239210780611445489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15835,6 +16223,10 @@ PrefabInstance:
     - target: {fileID: 6855487802961391909, guid: a4943bc7df747374e9fae1360e97cba8, type: 3}
       propertyPath: m_Name
       value: Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855487802961391909, guid: a4943bc7df747374e9fae1360e97cba8, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 8639209753617550072, guid: a4943bc7df747374e9fae1360e97cba8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15892,6 +16284,10 @@ PrefabInstance:
     - target: {fileID: 7060143390711341975, guid: 537bb81e1487f1942841e350c2f67fc6, type: 3}
       propertyPath: m_Name
       value: Small House Purple
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060143390711341975, guid: 537bb81e1487f1942841e350c2f67fc6, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 7640935905975861771, guid: 537bb81e1487f1942841e350c2f67fc6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16031,3 +16427,4 @@ SceneRoots:
   - {fileID: 2027421725}
   - {fileID: 271800548}
   - {fileID: 776356595}
+  - {fileID: 1997527989}
