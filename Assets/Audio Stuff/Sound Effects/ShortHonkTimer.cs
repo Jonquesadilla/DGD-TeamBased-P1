@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AmbulanceSoundsTimer : MonoBehaviour
+public class ShortHonkTimer : MonoBehaviour
 {
     
     public AudioSource AS;
     public AudioClip AC;
 
-    public float timer = 10f;
+    public float timer = 5f;
 
-    public float min = 20;
+    public float min = 10;
 
-    public float max = 30;
+    public float max = 20;
     // Start is called before the first frame update
     void Start()
     {
