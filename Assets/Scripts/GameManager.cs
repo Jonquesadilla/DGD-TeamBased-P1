@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
         if (E.Health <= 0)
         {   
             E.Health = 0;
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("Game Over");
         }
         //timer
         Timer += Time.deltaTime;
