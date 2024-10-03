@@ -8,7 +8,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class YouWin : MonoBehaviour
 
 {
-    public static float HighScore;
+    //public static float HighScore;
     public TextMeshProUGUI Highscore;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class YouWin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Highscore.text = "Best time:"+ HighScore;
+        Highscore.text = "Best time:"+ GameManager.Timer;
         if (Input.GetKey(KeyCode.R))
         {
             SceneManager.LoadScene("Main Scene");

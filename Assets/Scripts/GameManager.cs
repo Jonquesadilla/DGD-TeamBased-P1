@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     //public Enemy F;
 
     //public float Health;
-    public float Timer = 0;
+    public static float Timer = 0;
 
     public float score;
 

@@ -62,6 +62,7 @@ public class Car : MonoBehaviour
 
     void Start()
     {
+        HighScore = 0;
         score = 0;
         Health = 5;
     }
@@ -114,7 +115,7 @@ public class Car : MonoBehaviour
 
         if (score > HighScore)
         {
-            score = HighScore;
+            HighScore = score;
         }
     }
 /*
