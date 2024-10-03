@@ -44,6 +44,7 @@ public class Car : MonoBehaviour
     //Update is called once per frame
 
     public float score;
+    public static float HighScore;
     public float Health;
     public Rigidbody2D RB;
     public BoxCollider2D CarCrash;
@@ -108,7 +109,12 @@ public class Car : MonoBehaviour
         Score.text = "Targets:" + score + "/13";
         if (score >= 13)
         {
-            SceneManager.LoadScene("You Win");
+            SceneManager.LoadScene("YouWin");
+        }
+
+        if (score > HighScore)
+        {
+            score = HighScore;
         }
     }
 /*
