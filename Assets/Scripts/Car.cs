@@ -106,6 +106,10 @@ public class Car : MonoBehaviour
         }
         transform.Translate(0f, moveSpeedReverse * Time.deltaTime * -1f, 0f);
         Score.text = "Targets:" + score + "/13";
+        if (score >= 13)
+        {
+            SceneManager.LoadScene("You Win");
+        }
     }
 /*
     void Update()

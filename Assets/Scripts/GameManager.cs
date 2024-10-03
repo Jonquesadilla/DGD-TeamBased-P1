@@ -36,8 +36,8 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         //score
-        Sscore = score.ToString();
-        Score.text = "Score:" + Sscore;
+       // Sscore = score.ToString();
+       // Score.text = "Score:" + Sscore;
             //Health
         HP.text = "Health:" + E.Health;
         if (E.Health <= 0)
