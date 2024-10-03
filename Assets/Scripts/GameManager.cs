@@ -16,9 +16,9 @@ public class GameManager : MonoBehaviour
 
     //public float Health;
     public float Timer = 0;
-    public static float HighScore = 0;
 
     public float score;
+
     public string Sscore;
     public float Health = 10;
     public GameObject Target;
@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     {
         //score
         Sscore = score.ToString();
-        Score.text = Sscore + "/13";
+        Score.text = "Score:" + Sscore;
             //Health
         HP.text = "Health:" + E.Health;
         if (E.Health <= 0)

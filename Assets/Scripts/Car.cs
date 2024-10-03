@@ -12,9 +12,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 public class Car : MonoBehaviour
 {
     public GameManager F;
+    public TextMeshProUGUI Score;
     public string keyMoveForward;
     public string keyBrake;
     public string keyMoveReverse;
@@ -102,6 +105,7 @@ public class Car : MonoBehaviour
             moveSpeedReverse = (moveSpeedReverse < moveSpeedMax) ? moveSpeedReverse + moveAcceleration : moveSpeedMax; } else { moveSpeedReverse = (moveSpeedReverse > 0) ? moveSpeedReverse - moveDeceleration : 0;
         }
         transform.Translate(0f, moveSpeedReverse * Time.deltaTime * -1f, 0f);
+        Score.text = "Targets:" + score + "/13";
     }
 /*
     void Update()
