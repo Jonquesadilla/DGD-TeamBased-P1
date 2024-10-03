@@ -400,6 +400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -419,7 +423,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.789
+      value: -1.8050001
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -460,6 +464,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -587,6 +595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -681,7 +693,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.023
+      value: -1.039
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -722,6 +734,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -2299,7 +2315,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.231
+      value: -9.247
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2343,7 +2359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -2437,7 +2453,7 @@ GameObject:
   - component: {fileID: 464847799}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Buildings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2803,7 +2819,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.771
+      value: -8.787
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2844,6 +2860,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -3240,6 +3260,10 @@ PrefabInstance:
     - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
       propertyPath: m_Name
       value: Tree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4327,6 +4351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
       value: 3
@@ -5323,6 +5351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5918,7 +5950,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.654
+      value: -2.67
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5959,6 +5991,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -7355,6 +7391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7997,7 +8037,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.25
+      value: -0.26600003
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8038,6 +8078,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -8652,6 +8696,10 @@ PrefabInstance:
     - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9460,6 +9508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10219,6 +10271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8113795764486842749, guid: ee7716f3e81b2a0429244d9a42d0572e, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10329,6 +10385,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -10500,7 +10560,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.583
+      value: 0.567
       objectReference: {fileID: 0}
     - target: {fileID: 1162372638445939804, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10541,6 +10601,10 @@ PrefabInstance:
     - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_Name
       value: Cone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4565726119882905169, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
+      propertyPath: m_TagString
+      value: Buildings
       objectReference: {fileID: 0}
     - target: {fileID: 5300684544459502268, guid: 1a3b5ad9bfe243448a7689aac38d5298, type: 3}
       propertyPath: m_SortingOrder
@@ -11349,7 +11413,7 @@ GameObject:
   - component: {fileID: 2114307085}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Buildings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
