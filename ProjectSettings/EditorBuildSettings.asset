@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/_mainScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Opening.unity
+    path: Assets/Scenes/Title Screen.unity
+    guid: 4c7cab6902aae4744a7b7a503408efb0
+  - enabled: 1
+    path: Assets/Scenes/Main Scene.unity
+    guid: 788872e80a434a54296efe9a662dd99f
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
     guid: a1c87f083eee7df4f8bd4786b33e9018
-  - enabled: 1
-    path: Assets/Scenes/Joncarlos2.unity
-    guid: c26c9ecce2a8ace4e97fc5a7b1f8e8ae
   m_configObjects: {}
