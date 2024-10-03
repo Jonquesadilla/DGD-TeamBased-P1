@@ -39,35 +39,31 @@ public class Car : MonoBehaviour
     float rotateDeceleration = 10f;
     float rotateSpeedMax = 200f;
     //Update is called once per frame
-    public enum state
-    {
-    }
 
-    public state Current;
-    
     public float score;
     public float Health;
     public Rigidbody2D RB;
     public BoxCollider2D CarCrash;
     public GameObject DeadGuy;
 
-    public AudioSource Engine;
-    //public AudioClip vroom;
+    
 
-    public AudioSource hit;
-    public AudioClip Hit;
+    public AudioSource Crash;
+    public AudioClip crash;
     public AudioSource scream;
     public AudioClip Scream;
+    public AudioSource Bonk;
+    public AudioClip bonk;
     //timers
 
     void Start()
     {
         score = 0;
-        Health = 4;
+        Health = 5;
     }
      void Update()
     {
-
+        
         rotateLeft = (Input.GetKeyDown(keyRotateLeft)) ? true : rotateLeft;
         rotateLeft = (Input.GetKeyUp(keyRotateLeft)) ? false : rotateLeft;
         if (rotateLeft)
@@ -155,10 +151,23 @@ public class Car : MonoBehaviour
     {
         if (collision.gameObject.tag == "Pedestrian")
         {
+            Bonk.PlayOneShot(bonk);
             scream.PlayOneShot(Scream);
             Instantiate(Roadkill, transform.position+new Vector3(0,0), quaternion.identity);
             Debug.Log("hit");
             score += 1;
+        }
+        if (collision.gameObject.tag == "Buildings")
+        {
+            Crash.PlayOneShot(crash);
+            Debug.Log("hit");
+            Health -= 1;
+        }
+        if (collision.gameObject.tag == "Car")
+        {
+            Crash.PlayOneShot(crash);
+            Debug.Log("hit");
+            Health -= 1;
         }
     }
 }

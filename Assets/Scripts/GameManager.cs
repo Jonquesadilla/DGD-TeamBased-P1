@@ -8,23 +8,19 @@ using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshPro TimeTxt;
-    public TextMeshPro HP;
-    public TextMeshPro Score;
+    public TextMeshProUGUI TimeTxt;
+    public TextMeshProUGUI HP;
+    public TextMeshProUGUI Score;
     public Car E;
     //public Enemy F;
 
     //public float Health;
     public float Timer = 0;
+    public static float HighScore = 0;
 
     public float score;
-
     public string Sscore;
-    public float Health = 5;
-    public float SpawnTimer = 3f;
-    public float GunSpawnTimer = 10f;
-    public float GunSpawnMaxTime = 10;
-    public float SpawnMaxTime = 10;
+    public float Health = 10;
     public GameObject Target;
 
     public List<GameObject> Guns = new List<GameObject>();
@@ -41,7 +37,7 @@ public class GameManager : MonoBehaviour
     {
         //score
         Sscore = score.ToString();
-        Score.text = "Score:" + Sscore;
+        Score.text = Sscore + "/13";
             //Health
         HP.text = "Health:" + E.Health;
         if (E.Health <= 0)
